@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0px;
+}
+
+.header{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.logoUPJ{width:fit-content; height: auto;}
+
+.jdl1, .jdl2, .jdl3{
+    font-weight: 500;
+    font-size: larger;
+    font-family: arial, serif;
+    width: auto;
+}
+
+.jdl1{color: #0fa7ff;}
+.jdl2{color: #048440;}
+.jdl3{color: #d01616;}
+
+.searchBar{
+    width: fit-content;
+}
+
+nav{background-color: rgb(39, 136, 197);}
+
+.nav-item{
+    padding: 0px 20px 5px 20px;
+    font-weight:bold; 
+    font-size:medium;
+    border-left-style: groove;
+}
+
+p{
+    font-family: arial, sans-serif;
+    font-size: default;
+    text-align: justify;
+}
+
+.mitraBar{
+    padding: 20px 10px 20px 50px;
+    background-color:rgb(255, 58, 58);
+}
+
+.logoMitra{
+    margin-left: 40px; 
+    margin-right: 40px;
+}
+
+.jdlMitra{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.footer{
+    background-color:  #121212;
+    padding: 30px 10px 20px 10px;
+}
+
+.copyright{
+    background-color: rgb(87, 87, 87);
+    padding: 10px 10px 10px 10px;
+}
+
+/*home*/
+
+.content{
+    padding-top:5%;
+    padding-bottom:5%;
+}
+
+.colBerita{
+    border-right-style:ridge;
+    margin-bottom: 50px;
+}
+
+.berita{
+    border-bottom-style:ridge;
+    border-color: #d01616;
+    margin-bottom: 40px;
+}
+
+.colAcara{
+    border-right-style:ridge;
+    margin-bottom: 55px;
+}
+
+.jdlAcara{
+    border-bottom-style:ridge;
+    border-color: #d01616;
+    margin-bottom: 40px;
+}
+
+.gambarHome{
+    width: 340px;
+    margin-bottom:10px;
+}
+
+
+/* About Page */
+
+.judul1{
+    padding-bottom:20px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-bottom-style: ridge;
+}
+
+.subjudul{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pemisah{clear: both;}
+
+.iconId{
+    width: 80px;
+    height: auto;
+}
+
+#imgGedung{
+    margin-top: 50px;
+    margin-left:50px;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+#imgLogo{width: 25%; height: auto;}
+
+.kolom2{
+    padding-top: 50px;
+}
+
+table{
+    margin-bottom:60px;
+}
+
+.vismis{
+    background-color: #0981c7;
+    padding: 50px 10px 50px 10px;
+}
+
+video{
+    margin-left:26%;
+    margin-bottom: 5%;
+    width: 50%;
+    height: auto;
+}
+
+/* akutansi page*/
+.footerAkt{
+    background-color:#3da163;
+    padding: 30px 10px 20px 10px;
+}
+
+/*informatika page*/
+.footerInf{
+    background-color:#65dc24;
+    padding: 30px 10px 20px 10px;
+}
+
+#bgInf{
+    width: 100%;
+}
+
+/* Pendaftaran*/
+
+li{
+    font-family: arial,serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#jdl{
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+#subjdl{
+    font-family: arial;
+    font-weight: 700;
+}
+
+.pendaftaran{
+    margin-top: 4%;
+    margin-bottom:2%;
+    padding-bottom:2%;
+    border-bottom-style: solid;
+    border-radius: 10%;
+}
+
+.form-floating{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.inputForm{
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+#jdlbwh{
+    margin-bottom: 4%;
+}

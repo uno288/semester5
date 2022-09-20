@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!--Header-->
+  <div class="header container ">
+    <div class="row align-items-center">
+      <div class="col-7">
+        <img class="logoUPJ" src="../assets/logoUPJ.png" alt="logoUPJ">
+      </div>  
+      <div class="col-3">
+        <h4 class="jdl1">INTEGRITY</h4>
+        <h4 class="jdl2">PROFESIONALISM</h4>
+        <h4 class="jdl3">ENTREPRENEURSHIP</h4>
+      </div>
+      <div class="col-2">
+        <form class="searhBar">
+          <input class="form-control-" type="search" placeholder="Search">         
+        </form>
+      </div>
+    </div>
+  </div>
+    
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-sm text-light justify-content-center">
+    <div class="nav-con">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="navMenu nav-link text-light" href="../index.html" role="button">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../about/index.html" role="button">ABOUT US</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown">FAKULTAS</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../fakultas/informatika/index.html">INFORMATIKA</a></li>
+              <li><a class="dropdown-item" href="../fakultas/akutansi/index.html">AKUTANSI</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index.html" role="button">PENDAFTARAN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+
+  <!--Content-->
+  <div class="pendaftaran container">
+    <div class="row">
+      <div class="col-3">
+
+      </div>
+      <div class="col-9">
+        <h3 id="jdl">Prosedur & Biaya Pendaftaran</h3><br>
+        <ol>
+          <h5 id="subjdl">Prosedur dan Persyaratan Pendaftaran:</h5>
+          <li>Proses Pendaftaran</li>
+          <p>Pendaftaran online klik link berikut, Pendaftaran Online. </p>
+          <li>Biaya pendaftaran sebesar Rp 200.000,- (dua ratus ribu rupiah)</li>
+          <p>Pembayaran dapat dilakukan melalui Shopee, Tokopedia, dan BNI dengan nomor VA yang tertera pada aplikasi MyUPJ saat pendaftaran.</p>
+          <li>Konfirmasi</li>
+          <p>Kirim bukti pembayaran disertai nama calon mahasiswa melalui email ke info@upj.ac.id</p>
+          <li>Proses Seleksi</li>
+          <p>Panitia Penerimaan Mahasiswa Baru (PMB) akan menghubungi calon mahasiswa melalui telepon atau email mengenai proses seleksi melalui jalur rapor atau Ujian Saringan Masuk UPJ.(*tanpa bukti setoran, berkas tidak dapat diproses)</p>
+          <li>Lokasi Kampus</li>
+          <p>Kampus UPJ sangat MUDAH diakses melalui JORR, lanjutkan ke toll Bintaro / BSD, keluar di Gerbang Keluar Pondok Ranji / Bintaro (Ambil beberapa lajur / gerbang di sebelah kiri), dan belok kiri ambil arah Bintaro Jaya Xchange. Lewati flyover mengarah Sawah Baru, lewati jembatan dan Kampus UPJ terletak di kiri jalan.</p>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <!--Form-->
+  <div class="inputForm container">
+    <h5 id="jdlbwh">Sertakan Nama dan Email untuk Kelanjutan Berita</h5>
+    <div class="row">                 
+      <div class="col-sm-9">
+        <form>
+          <!--Nama-->                           
+          <div class="row">                          
+            <div class="col-sm-6">
+              <h6>Nama :</h6>
+              <div class="form-floating">
+                <input class="form-control" type="text" placeholder="Name">
+                <label for="Name">Name</label>
+              </div>
+            </div>              
+            <!-- Email -->
+            <div class="col-sm-6">
+              <h6>Email :</h6>
+              <div class="form-floating">
+                <input class="form-control" type="text" placeholder="Email">
+                <label for="email">Email</label>
+              </div>
+            </div>
+          </div>
+          <button class="container-float btn btn-success" type="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--Mitra Kerjasama-->
+  <div class="mitraBar container-fluid">
+    <div class="row">
+      <div class="col-1 text-center">
+          <img class="logoMitra" src="https://upj.ac.id/web/templates/assets/images/icon-mitra-kerja.png">   
+      </div>
+      <div class="col-8 text-white text-start">
+        <h6 class="jdlMitra">MITRA KERJASAMA</h6>
+      </div>
+      <div class="col-3 text-start"> 
+        <button href="#" class="btn btn-dark btn-sm">
+          Lihat Selengkapnya
+        </button> 
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h5>Contact Us</h5>
+          <img src="https://upj.ac.id/web/templates/assets/images/logo-footer.png">
+          <br><br>
+          <p>
+            Jl. Cendrawasih Raya Blok B7/P Bintaro Jaya, Sawah Baru, Ciputat, Tangerang Selatan 15413
+          </p>
+          <p>
+            (021) 745 5555 - (021) 2986 1525
+          </p>
+        </div>
+        <!--Social Media-->
+        <div class="col-6 text-center">
+          <h5>Social Media</h5>
+          <a href="#" class="text-white me-4">
+          <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="text-white me-4">
+          <i class="fa fa-twitter"></i>
+          </a>
+          <a href="#" class="text-white me-4">
+          <i class="fa fa-google"></i>
+          </a>
+          <a href="#" class="text-white me-4">
+          <i class="fa fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="copyright text-center text-white">
+    <h6>© 2022 - Universitas Pembangunan Jaya</h6>
+  </div>
+     
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
